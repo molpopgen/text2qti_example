@@ -26,10 +26,12 @@ For me, I see this when I preview the quiz:
 
 ## Details
 
+* [text2qti](https://github.com/gpoore/text2qti) does the heavy lifting.
+
 * The `custom_rounding.py` uses tricks from finance to ensure rounding.
   This is necessary because:
 
-  * Computers use IEEfp to round
+  * Computers use IEEfp to round.
   * Biology students typically round incorrectly, defaulting
     to "half rounds up" rather than the correct "round to even".
   * The module sets to "half rounds up" rather than trying to teach
@@ -37,3 +39,8 @@ For me, I see this when I preview the quiz:
 
 * The copyright notice for each question should keep the material off of Chegg, Course Hero, etc.,
   who claim to use image recognition to reject such material.
+
+* The chi-squared calculator is an [observable](https://www.observablehq.com) notebook.
+  David Kirkby here at UCI introduced me to this.
+  My notebooks are [here](https://observablehq.com/@molpopgen?tab=notebooks).
+  The trick is to use the "embed" feature, select the desired UI elements, and then press `Copy`.
