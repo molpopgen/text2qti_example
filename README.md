@@ -44,3 +44,7 @@ For me, I see this when I preview the quiz:
   David Kirkby here at UCI introduced me to this.
   My notebooks are [here](https://observablehq.com/@molpopgen?tab=notebooks).
   The trick is to use the "embed" feature, select the desired UI elements, and then press `Copy`.
+
+### Alt text for images
+
+If standard markdown syntax (`![alt text](image_file caption)`) is used, any alt text will end up in the generated XML files.
